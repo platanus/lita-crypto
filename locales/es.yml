@@ -1,0 +1,9 @@
+es:
+  lita:
+    handlers:
+      crypto:
+        current_price: "@%{subject}, está a %{price}"
+        volumen: volume
+        "último precio": last_price
+        "máximo bid": max_bid
+        "mínimo ask": min_ask
