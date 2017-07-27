@@ -1,6 +1,5 @@
 require "lita"
 require "redis"
-require "pry"
 require "money"
 
 Lita.load_locales Dir[File.expand_path(
